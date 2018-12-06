@@ -12,7 +12,8 @@ namespace MapRental_api.Models
         {
 
         }
-
+        //Rentals reference for CRUD functionality//
+        public DbSet<Rental> Rentals { get; set; }
 
     }
 }
